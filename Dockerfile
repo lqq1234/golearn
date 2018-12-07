@@ -1,3 +1,3 @@
-FROM registry.paas/library/busybox:latest
+FROM registry.paas/library/nginx:latest
 ADD gotest /gotest
 CMD /gotest
